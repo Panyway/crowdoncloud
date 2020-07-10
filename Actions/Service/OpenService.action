@@ -1,0 +1,9 @@
+{
+	"Service": "/crowdoncloud_2/Services/SampleServiceV2.service",
+	"_Type": "Action.Type.ODataService.Open",
+	"OnSuccess": "/crowdoncloud_2/Actions/Service/CreateOpenServiceSuccessMessage.action",
+	"OnFailure": "/crowdoncloud_2/Actions/Service/CreateOpenServiceFailureMessage.action",
+	"ActionResult": {
+		"_Name": "init"
+	}
+}

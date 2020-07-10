@@ -1,0 +1,44 @@
+{
+	"Caption": "Search",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Coordinates",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "#Page:Search/#Control:CoordinatesTest/#Value",
+							"_Name": "CoordinatesTest",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Enter Store",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "#Page:Search/#Control:EnterStoreName/#Value",
+							"_Name": "EnterStoreName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"OnPress": "/crowdoncloud_2/Rules/onSearch.js",
+							"TextAlignment": "center",
+							"Title": "Search",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Search",
+	"_Type": "Page"
+}

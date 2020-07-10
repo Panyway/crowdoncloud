@@ -1,0 +1,35 @@
+{
+	"Caption": "SearchResult",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Class": "MyMapClass",
+					"Control": "MyMapExtension",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ExtensionProperties": {
+						"Prop": {
+							"City": "Newtown Square",
+							"Country": "United States",
+							"HouseNumber": "",
+							"LastName": "",
+							"PostalCode": "19073",
+							"Street": "3999 West Chester Pike"
+						}
+					},
+					"Height": 380,
+					"Module": "MyMapModule",
+					"Visible": true,
+					"_Name": "SectionExtension0",
+					"_Type": "Section.Type.Extension"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "SearchResult",
+	"_Type": "Page"
+}
