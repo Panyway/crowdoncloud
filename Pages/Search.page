@@ -6,11 +6,29 @@
 				{
 					"Controls": [
 						{
+							"Class": "MyMapClass",
+							"Control": "MyMapExtension",
+							"ExtensionProperties": {
+								"Prop": {
+									"City": "King of Prussia",
+									"Country": "United States",
+									"HouseNumber": "",
+									"LastName": "Costco",
+									"PostalCode": "19406",
+									"Street": "201 Allendale Rd"
+								}
+							},
+							"Height": 350,
+							"IsVisible": true,
+							"Module": "MyMapModule",
+							"_Name": "FormCellExtension0",
+							"_Type": "Control.Type.FormCell.Extension"
+						},
+						{
 							"Caption": "Coordinates",
 							"IsEditable": true,
 							"IsVisible": true,
 							"PlaceHolder": "PlaceHolder",
-							"Value": "#Page:Search/#Control:CoordinatesTest/#Value",
 							"_Name": "CoordinatesTest",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},
@@ -18,7 +36,6 @@
 							"Caption": "Enter Store",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Value": "#Page:Search/#Control:EnterStoreName/#Value",
 							"_Name": "EnterStoreName",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},
