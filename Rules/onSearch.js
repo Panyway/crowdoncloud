@@ -26,9 +26,9 @@
 	// 					anotherStore.country + ' ' + anotherStore.postalCode;
 	var customerAddress = '700 Evergreen Dr Glen Mills United States 19342';
 	var data = geo.getFromLocationName(customerAddress, 1);
-	var latLng = new com.google.android.gms.maps.model.LatLng(data.get(0).getLatitude(), data.get(0).getLongitude());
-	gMap.addMarker(new com.google.android.gms.maps.model.MarkerOptions().position(latLng).title('Costco' +
-						"'s " + "location"));
+	// var latLng = new com.google.android.gms.maps.model.LatLng(data.get(0).getLatitude(), data.get(0).getLongitude());
+	// gMap.addMarker(new com.google.android.gms.maps.model.MarkerOptions().position(latLng).title('Costco' +
+	// 					"'s " + "location"));
 	// logger.log("before add");
 	// mapControl._extension.setValue(anotherStore);
 	// logger.log("after add");
