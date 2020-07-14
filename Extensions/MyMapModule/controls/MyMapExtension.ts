@@ -189,4 +189,8 @@ export class MyMapClass extends IControl {
 		// do nothing
 		return Promise.resolve();
 	}
+
+	public addMarker(customerAddress, context){
+		console.dir(customerAddress);
+	}
 }
