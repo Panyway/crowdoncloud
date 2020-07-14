@@ -9,12 +9,12 @@
 	var ctValue = context.evaluateTargetPath('#Page:Search/#Control:CoordinatesTest/#Value');
 	// alert(esName + " " + ctValue);
 	var anotherStore = {
-		"City": "King of Prussia",
+		"City": "Glen Mills",
 		"Country": "United States",
 		"HouseNumber": "",
 		"LastName": "Costco",
-		"PostalCode": "19406",
-		"Street": "201 Allendale Rd"
+		"PostalCode": "19342",
+		"Street": "700 Evergreen Dr"
 	};
 	// 
 	// alert(JSON.stringify(anotherStore));
@@ -24,7 +24,7 @@
 	var geo = extension._geo;
 	// var customerAddress = anotherStore.houseNumber + ' ' + anotherStore.street + ' ' + anotherStore.city + ' ' +
 	// 					anotherStore.country + ' ' + anotherStore.postalCode;
-	var customerAddress = '201 Allendale Rd King of Prussia United States 19406';
+	var customerAddress = '700 Evergreen Dr Glen Mills United States 19342';
 	var data = geo.getFromLocationName(customerAddress, 1);
 	var latLng = new com.google.android.gms.maps.model.LatLng(data.get(0).getLatitude(), data.get(0).getLongitude());
 	gMap.addMarker(new com.google.android.gms.maps.model.MarkerOptions().position(latLng).title('Costco' +
