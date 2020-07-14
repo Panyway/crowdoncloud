@@ -29,9 +29,9 @@
 	var latLng = new com.google.android.gms.maps.model.LatLng(data.get(0).getLatitude(), data.get(0).getLongitude());
 	gMap.addMarker(new com.google.android.gms.maps.model.MarkerOptions().position(latLng).title('Costco' +
 						"'s " + "location"));
-	logger.log("before add");
-	mapControl._extension.setValue(anotherStore);
-	logger.log("after add");
+	// logger.log("before add");
+	// mapControl._extension.setValue(anotherStore);
+	// logger.log("after add");
 	// logger.log(esName);
 	// alert(esName);
 	// logger.uploadLogFile("https://ic-cf-2020-team-227-com-sap-mdk-pan.cfapps.eu10.hana.ondemand.com", "com.sap.mdk.pan");
