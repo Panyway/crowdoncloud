@@ -24,6 +24,66 @@
 					"Visible": true,
 					"_Name": "SectionExtension0",
 					"_Type": "Section.Type.Extension"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCell": {
+						"AccessoryType": "disclosureIndicator",
+						"KeyName": "KeyName1",
+						"Value": "Value"
+					},
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection2",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCell": {
+						"AccessoryType": "disclosureIndicator",
+						"KeyName": "KeyName2",
+						"Value": "Value"
+					},
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection1",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				},
+				{
+					"ContactCell": {
+						"ActivityItems": [
+							{
+								"ActivityType": "VideoCall",
+								"ActivityValue": "000-000-0000"
+							},
+							{
+								"ActivityType": "Email",
+								"ActivityValue": "pany.pan@sap.com"
+							},
+							{
+								"ActivityType": "Detail",
+								"ActivityValue": "This is an alert"
+							}
+						],
+						"Description": "Description",
+						"DetailImage": "res://contact.png",
+						"Headline": "Headline",
+						"Subheadline": "Subheadline"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionContactCellTable0",
+					"_Type": "Section.Type.ContactCell"
 				}
 			],
 			"_Name": "SectionedTable0",

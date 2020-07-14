@@ -21,7 +21,7 @@
 							"Height": 350,
 							"IsVisible": true,
 							"Module": "MyMapModule",
-							"_Name": "FormCellExtension0",
+							"_Name": "MapControlinSearch",
 							"_Type": "Control.Type.FormCell.Extension"
 						},
 						{

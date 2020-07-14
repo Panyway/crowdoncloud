@@ -7,7 +7,7 @@
 	// logger.log("Current Log Level: " + logger.getLevel);
 	var esName = context.evaluateTargetPath('#Page:Search/#Control:EnterStoreName/#Value');
 	var ctValue = context.evaluateTargetPath('#Page:Search/#Control:CoordinatesTest/#Value');
-	alert(esName + " " + ctValue);
+	// alert(esName + " " + ctValue);
 	var anotherStore = {
 		"City": "King of Prussia",
 		"Country": "United States",
@@ -18,7 +18,7 @@
 	};
 	// 
 	alert(JSON.stringify(anotherStore));
-	// var mapControl = context.evaluateTargetPath("#Page:Search/#Control:MapControlinSearch");
+	var mapControl = context.evaluateTargetPath("#Page:Search/#Control:MapControlinSearch");
 	// logger.log(mapControl);
 	logger.log("before add");
 	// mapControl.addMarker(anotherStore,context);
