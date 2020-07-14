@@ -22,11 +22,12 @@
 	var extension = mapControl._extension;
 	var gMap = extension._gMap;
 	var geo = extension._geo;
-	var customerAddress = anotherStore.houseNumber + ' ' + anotherStore.street + ' ' + anotherStore.city + ' ' +
-						anotherStore.country + ' ' + anotherStore.postalCode;
+	// var customerAddress = anotherStore.houseNumber + ' ' + anotherStore.street + ' ' + anotherStore.city + ' ' +
+	// 					anotherStore.country + ' ' + anotherStore.postalCode;
+	var customerAddress = '201 Allendale Rd King of Prussia United States 19406';
 	var data = geo.getFromLocationName(customerAddress, 1);
 	var latLng = new com.google.android.gms.maps.model.LatLng(data.get(0).getLatitude(), data.get(0).getLongitude());
-	gMap.addMarker(new com.google.android.gms.maps.model.MarkerOptions().position(latLng).title(this._customerInfo.lastName +
+	gMap.addMarker(new com.google.android.gms.maps.model.MarkerOptions().position(latLng).title('Costco' +
 						"'s " + "location"));
 	logger.log("before add");
 	mapControl._extension.setValue(anotherStore);
