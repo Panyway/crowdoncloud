@@ -21,7 +21,7 @@
 	var mapControl = context.evaluateTargetPath("#Page:Search/#Control:MapControlinSearch");
 	// logger.log(mapControl);
 	logger.log("before add");
-	mapControl.__proto__.setValue(anotherStore);
+	mapControl._extension.setValue(anotherStore);
 	logger.log("after add");
 	// logger.log(esName);
 	// alert(esName);
