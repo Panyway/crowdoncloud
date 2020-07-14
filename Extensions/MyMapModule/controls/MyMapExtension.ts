@@ -187,6 +187,7 @@ export class MyMapClass extends IControl {
 
 	public setValue(value: any, notify: boolean, isTextValue ? : boolean): Promise < any > {
 		// do nothing
+		console.dir(value);
 		return Promise.resolve();
 	}
 
